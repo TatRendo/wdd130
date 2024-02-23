@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+@font-face{
+    font-family: Alata;
+    src: url("Alaba-Regular.ttf");
+}
+
+html body {
+    height: 100%;
+    font-family: Alata;
+    background-color:  #f0ede9;
+}
+
+
+:root {
+    --primary-color: #141415;
+    --secondary-color: #214E34;
+    --accent1-color: #364156;
+    --accent2-color: #C3C2C2;
+
+    --heading-font: 'Alata', serif;
+    --paragraph-font: 'Alata', serif;
+
+    --nav-background-color: #011638;
+    --nav-link-color: #d3cece;
+    --nav-hover-link-color: #7c7d7e;
+    --nav-hover-background-color: #031518;
+}      
+
+/*body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+header nav {
+    background-color: var(--nav-hover-background-color);
+    padding: 20px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    max-width: 100%;
+    text-align: right;
+}
+
+header a {
+    display: block;
+    color: var(--accent2-color);
+    text-decoration: none;
+    margin: 0 50px;
+
+}
+
+.home img {
+    width: 130px;
+    height: auto;
+}
+
+.two img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: Alata;
+    background-color:  #00000076;
+    width: 95.5%;
+    padding: 30px;
+    margin: 0;
+}
+
+.two h1 {
+    position: absolute;
+    overflow: hidden;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: center;
+}
+
+.two::after {
+    content: '';
+    position: absolute;
+    width: 98%;
+    height: 15px;
+    background-color: var(--accent1-color);
+    left: 1%;
+    border-bottom: 2px double #000;
+    z-index: 1;
+}
+
+.option img {
+    width: 150px;
+    max-width: 100%; 
+    border: 8px solid var(--nav-hover-background-color);
+}  
+
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: flex-start;
+}
+
+section h2{
+    text-align: center;
+    color: white;
+    background-color:  #c1bab7c6;
+    width: 99.5%;
+    padding: 10px;
+    margin: 0;
+}
+
+.Overview img{
+    background-color: var(--accent2-color);
+    padding: 80px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Overview a input[type="button"] {
+    background-color: var(--nav-background-color);
+    color: var(--accent2-color);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Overview a input[type="button"]:hover {
+    background-color: var(--secondary-color); 
+}
+
+article {
+    background-color: var(--nav-link-color);
+    padding: 80px;
+    margin: 2000px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+    display: flex;
+    justify-content: center;
+}
+
+.Overview p {
+    position: absolute;
+    margin: 0 0 100px 150px;
+    top: 55%;
+    left: 40%;
+    transform: translate(0, -50%);
+    color: rgb(255, 255, 255);
+    background-color: var(--secondary-color);
+    padding: 3rem;
+}
+
+.Overview article p {
+    display: flex;
+    max-width: 800px;
+}
+
+.Overview{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.Purpose img{
+    background-color: var(--nav-background-color);
+    padding: 80px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Purpose p{
+    max-width: 700px;
+    position: relative;
+    left: -2%;
+    color: rgb(255, 255, 255);
+    background-color:  #c1bab7;
+    padding: 70px;
+    overflow: hidden;
+}
+
+.Purpose{
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+}
+
+.Audience p{
+    max-width: 700px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    background-color:  #c1bab7;
+    padding: 70px;
+    overflow: hidden;
+}
+
+.Audience img {
+    width: 150px;
+    max-width: 100%; 
+}  
+
+.Audience{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+
+footer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-color: var(--accent1-color);
+    color: rgb(255, 255, 255);
+}

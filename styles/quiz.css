@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto:ital,wght@0,400;0,900;1,900&display=swap');
+
+@font-face{
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf");
+}
+
+html body {
+    height: 100%;
+    font-family: Roboto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+}
+
+form {
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(222, 222, 222);
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(4, 4, 181);
+
+}
+
+#q1 {
+    width: 525px;
+    padding: 5px;
+    border: 1px solid #000000b2; 
+}
+
+#q3-options {
+    width: 535px;
+    border: 1px solid #000000b2 ;
+}
+
+#q1,
+#q2,
+#q3,
+#q4 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000000b2 ;
+}
+
+label strong{
+    color: rgb(4, 4, 181);
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+p {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10PX;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(4, 4, 181);
+    border-style:none;
+    color: white;
+}

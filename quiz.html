@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Tatiana Rendón">
+    <title> Quiz </title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            
+            <h1> ☑️ Basic HTML and CSS Quiz</h1>
+
+            <form action="/formulario" method="post">
+                <!--1-->
+                <label for="q1"><strong>1.</strong> What does the acronym CSS stand for?</label><br>                <input type="text" id="q1" name="q1"  placeholder=" "/> 
+                <br>
+                <!--2-->
+                <label for="q2"><strong>2.</strong> How of the following is a valid CSS comment?</label><br>
+                <textarea cols="70" rows="10" id="q2" placeholder="..." name="q2"> </textarea>
+                <br>
+                <!--3-->
+                <label for="q3"><strong>3.</strong> Which of the following is a valid CSS comment?</label><br>
+                <div>
+                    <select id="q3" name="q3">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+
+                    </select>
+                <br>
+                <!--4-->
+                <label for="q4"><strong>4.</strong> What is the bottom margin given this declaration?</label>
+                <p>margin: 10px 5px 15px;</p>
+                <input type="text" name="q4" id="q4" placeholder=" ">
+                <br>
+                <div>
+                    <button type="submit"><strong>Submit Quiz</strong></button>
+                </div>
+            </form>
+                  
+        </nav>
+    </header>
+
+</body>
+
+</html>
